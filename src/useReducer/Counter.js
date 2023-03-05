@@ -1,10 +1,15 @@
 import React, { useState, useReducer } from 'react'
 
+const ACTIONS = {
+    ADD: 'add',
+    SUB: 'sub',
+}
+
 const reducer = (state, action) => {
     switch (action.type) {
-        case 'add':
+        case ACTIONS.ADD:
             return { count: state.count + 1 }
-        case 'sub':
+        case ACTIONS.SUB:
             return { count: state.count - 1 }
         default:
             return state
@@ -16,11 +21,11 @@ const Counter = () => {
 
 
     const add = () => {
-        dispatch({ type: 'add' })
+        dispatch({ type: ACTIONS.ADD })
     }
 
     const sub = () => {
-        dispatch({ type: 'sub' })
+        dispatch({ type: ACTIONS.SUB })
     }
 
     return (
