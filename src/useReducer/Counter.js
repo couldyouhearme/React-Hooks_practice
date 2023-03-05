@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from 'react'
+import React, { useReducer } from 'react'
 
 const ACTIONS = {
     ADD: 'add',
@@ -16,6 +16,7 @@ const reducer = (state, action) => {
     }
 }
 
+// user case 1: useReducer without payload - single file Counter
 const Counter = () => {
     const [state, dispatch] = useReducer(reducer, { count: 10 })
 

@@ -1,11 +1,12 @@
 import React from 'react'
-import Counter from './useReducer/Counter.js'
+// import Counter from './useReducer/Counter.js'
+import Todos from './useReducer/Todos.js'
 
 export default function App() {
     return (
         <div>
-            <h1>App</h1>
-            <Counter />
+            {/* <Counter /> */}
+            <Todos />
         </div>
     )
 }
