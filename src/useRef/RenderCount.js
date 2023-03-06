@@ -1,9 +1,11 @@
+// user case 1: 
+// similar to 'state' - store values across renders 
+// does NOT cause re-render as changes of 'state' does
 import React, { useState, useEffect, useRef } from 'react'
 
 const RenderCount = () => {
     const [name, setName] = useState('')
 
-    // useRef: does NOT cause re-render as 'state' does
     const renderCountRef = useRef(1)
 
     useEffect(() => {

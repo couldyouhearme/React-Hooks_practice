@@ -12,6 +12,6 @@ ref: https://www.youtube.com/watch?v=kK_Wqx3RnHk&list=PLZlA0Gpn_vH8EtggFGERCwMY5
 #### 03/05/2023: add useCallback - 1 user case
 ref: https://www.youtube.com/watch?v=_AyFP5s69N4&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h&index=8
 
-#### 03/05/2023: add useRef - 2 user case
+#### 03/05/2023: add useRef - 3 user case
 ref: https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h&index=4
 

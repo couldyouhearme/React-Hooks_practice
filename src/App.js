@@ -1,8 +1,9 @@
 import React from 'react'
 // import Counter from './useReducer/Counter'
 // import Todos from './useReducer/Todos'
-import ToggleTheme from './useCallback/ToggleTheme'
+// import ToggleTheme from './useCallback/ToggleTheme'
 import RenderCount from './useRef/RenderCount'
+import Focus from './useRef/Focus'
 
 export default function App() {
     return (
@@ -10,7 +11,8 @@ export default function App() {
             {/* <Counter /> */}
             {/* <Todos /> */}
             {/* <ToggleTheme /> */}
-            <RenderCount />
+            {/* <RenderCount /> */}
+            <Focus />
         </div>
     )
 }
