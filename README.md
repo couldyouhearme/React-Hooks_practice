@@ -15,3 +15,7 @@ ref: https://www.youtube.com/watch?v=_AyFP5s69N4&list=PLZlA0Gpn_vH8EtggFGERCwMY5
 #### 03/05/2023: add useRef - 3 user case
 ref: https://www.youtube.com/watch?v=t2ypzz6gJm0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h&index=4
 
+#### 03/06/2023: add useContext - 1 user case
+ref: https://beta.reactjs.org/reference/react/useContext#usage
+
+
