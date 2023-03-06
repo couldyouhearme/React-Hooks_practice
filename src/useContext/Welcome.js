@@ -13,7 +13,7 @@ const Welcome = () => {
                 <input
                     type='checkbox'
                     checked={theme === 'dark'}
-                    onClick={e => setTheme(e.target.checked ? 'dark' : 'light')}
+                    onChange={e => setTheme(e.target.checked ? 'dark' : 'light')}
                 />
                 Use dark mode
             </label>
@@ -25,10 +25,12 @@ export default Welcome
 
 const Form = () => {
     return (
-        <Panel title='Welcome'>
-            <Button>Sign up</Button>
-            <Button>Log in</Button>
-        </Panel>
+        <div className='panel'>
+            <Panel title='Welcome' >
+                <Button>Sign up</Button>
+                <Button>Log in</Button>
+            </Panel>
+        </div>
     )
 }
 
